@@ -1,0 +1,153 @@
+#blog a {
+    color: #158f74;
+    text-decoration: none;
+    background-image: linear-gradient(#42b3b3, #119494);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+    font-weight: 600;
+}
+
+#blog a:hover,
+#blog a:focus,
+#blog a:active {
+    background-size: 100% 0.1em;
+    background-position-x: 0%;
+}
+
+#blog table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#blog table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#blog table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+#blog table th,
+#blog table td {
+    padding: 12px 15px;
+}
+
+#blog table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#blog table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#blog table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+#blog table tbody tr.active-row {
+
+    font-weight: bold;
+
+    background-color: #009879;
+    color: white;
+}
+
+
+#blog h1 {
+    font-size: 2.9rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #333;
+    font-family: "Instrument Serif", sans-serif;
+}
+
+#blog h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    color: #333;
+    font-family: "DM Sans", sans-serif;
+}
+
+#blog h3 {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: #333;
+    font-family: "DM Sans", sans-serif;
+}
+
+#blog h4 {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: #333;
+    font-family: "DM Sans", sans-serif;
+}
+
+#blog h5 {
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: #333;
+    font-family: "DM Sans", sans-serif;
+}
+
+#blog img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 85%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#blog video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 85%;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+#blog p {
+    font-size: 0.4rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #333;
+    font-family: "DM Sans", monospace;
+    font-size: large;
+}
+
+#blog ul {
+    font-family: "DM Sans", monospace;
+    font-size: large;
+    list-style-type: disc;
+}
